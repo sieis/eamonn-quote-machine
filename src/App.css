@@ -37,6 +37,10 @@
   margin: 1rem 0;
 }
 
+#quote-box button:hover{
+  color: #0d6efd;
+}
+
 a{
   /* color of tweet Quote Link */
   color: var(--dark-color);
