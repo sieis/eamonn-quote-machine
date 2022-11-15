@@ -1,38 +1,60 @@
+:root{
+  --dark-color: #282c34;
+  --light-color: #b4bccb;
+}
 .App {
+  margin: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App, html{
+  background-color: var(--dark-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#quote-box{
+  margin: 20vh auto;
+  text-align: left;
+  background-color: var(--light-color);
+  padding: 4rem;
+  width: 50vw;
+  max-width: 800px;
+  font-size: 1.2rem;
+  /* Quote Box Text Color */
+  color: var(--dark-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#quote-box button{
+  min-width: 12rem;
+  max-width: fit-content;
+  /* Quote Box Button Border Color */
+  border: solid var(--dark-color);
+  border-radius: 12px;
+  /* Quote Box Button Text Color */
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  box-shadow: var(--dark-color) 2px 2px 2px ;
+  margin: 1rem 0;
+}
+
+a{
+  /* color of tweet Quote Link */
+  color: var(--dark-color);
+  text-decoration: none;
+  border: solid var(--dark-color);
+  border-radius: 12px;
+  background-color: var(--light-color);
+  box-shadow: var(--dark-color) 2px 2px 2px;
+  padding: 0 12px 4px 12px;
+}
+
+#author{
+  text-align: right;
+  padding-bottom: 2rem;
+}
+
+#buttons{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: space-between;
+  align-items: baseline;
 }
