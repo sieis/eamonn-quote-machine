@@ -33,7 +33,7 @@ export const QuoteBox = () => {
                 } 
                 id="new-quote">New Quote
                 </button>
-                <a href="https://twitter.com/EamonnCottrell?ref_src=twsrc%5Etfw" data-lang="en" data-show-count="false">Follow @EamonnCottrell</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://twitter.com/EamonnCottrell?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @EamonnCottrell</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     )
